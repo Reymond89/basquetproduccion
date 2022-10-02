@@ -87,22 +87,22 @@
 /* Banner text */
 
 .header_banner{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 300px 300px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 0 30px;
+    padding: 0 10px;
     width: 100%;
-    height: 100vh;
+    height: 600px;
     color: #ffff;
     
 }
 .banner_text{
     text-align: center;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
     align-items: center;
-    justify-items: center;
+    justify-content: flex-end;
 }
 
 
@@ -157,7 +157,7 @@
 
 /* img */
 .header_picture .principal{
-    width: 210px;
+    width: 180px;
 
 }
 
@@ -205,13 +205,13 @@
     /* banner */
     .header_banner{
         width: 100%;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 470px;
+        height: 400px;
+        display: flex;
+        display: flex;
         align-content: center;
+        justify-content: space-evenly;
+        flex-direction: row;
         align-items: center;
-        justify-items: center;
       
 
     }
@@ -222,7 +222,7 @@
         justify-items: start;
     }  
     .header_banner h1{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         
     }
     .header_banner h3{
@@ -262,24 +262,25 @@
     }
 
     .header_picture .principal{
-        width: 260px;
+        width: 270px;
         
 
     }}
 
 @media screen and (min-width:1000px) {
     .header_picture .principal{
-        width: 400px;
+        width: 300px;
+        
     }
     .header_banner h1{
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         
     }
     .header_banner h3{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .button-87{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
