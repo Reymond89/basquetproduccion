@@ -89,7 +89,7 @@
 .header_banner{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 170px 120px;
+    grid-template-rows: 300px 300px;
     align-items: center;
     text-align: center;
     padding: 0 30px;
@@ -107,12 +107,12 @@
 
 
 .banner_text h3{
-    font-size: 0.8rem;
+    font-size: 1rem;
 
 }
 .banner_text h1{
     margin-top: 10px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
     
@@ -157,7 +157,7 @@
 
 /* img */
 .header_picture .principal{
-    width: 160px;
+    width: 210px;
 
 }
 
@@ -208,6 +208,7 @@
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 470px;
         align-content: center;
         align-items: center;
         justify-items: center;
@@ -221,7 +222,7 @@
         justify-items: start;
     }  
     .header_banner h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         
     }
     .header_banner h3{
